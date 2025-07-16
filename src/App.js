@@ -64,7 +64,8 @@ export default function App() {
   useEffect(function() {
     async function fetchQuestion() {
       try {
-        const res = await fetch(`https://reactquiz-server-0v3c.onrender.com`)
+        const res = await fetch(`https://reactquiz-server-0v3c.onrender.com/questions`)
+        // https://reactquiz-server-0v3c.onrender.com/questions
         const data = await res.json()
         dispatch({type:'dataRecieved', payload: data})
 
