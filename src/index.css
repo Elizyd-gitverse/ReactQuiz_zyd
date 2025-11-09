@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Merienda:wght@300..900&family=Orbitron:wght@400..900&family=Press+Start+2P&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sirin+Stencil&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
+
 :root {
   --color-darkest: #343a40;
   --color-dark: #495057;
@@ -8,7 +12,7 @@
   --color-accent: #ffa94d;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
+
 
 * {
   margin: 0;
@@ -18,14 +22,14 @@
 
 html {
   font-size: 62.5%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Merienda", sans-serif;
 }
 
 body {
   min-height: 100vh;
   color: var(--color-light);
-  background-color: var(--color-darkest);
+ background-image: linear-gradient(#000000d9, #000000dc), url("https://static0.srcdn.com/wordpress/wp-content/uploads/2023/12/onepiecewanoending.jpg");
+  background-size: cover;
   padding: 3.2rem;
 }
 
@@ -41,11 +45,13 @@ body {
 }
 
 .app-header {
+ 
   width: 66rem;
   margin-bottom: 4rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:center;
+  gap: 2rem
 }
 
 .error {
@@ -62,7 +68,7 @@ img {
 }
 
 h1 {
-  font-family: "Codystar";
+  font-family: "Merienda", sans-serif;
   font-size: 5.6rem;
 }
 
@@ -212,7 +218,8 @@ progress {
   float: left;
   font-size: 1.8rem;
   color: var(--color-medium);
-  border: 2px solid var(--color-dark);
+  border: 2px solid var(--color-theme);
+  background-color: var(--color-theme);
   padding: 1.35rem 2.8rem;
   border-radius: 100px;
 }

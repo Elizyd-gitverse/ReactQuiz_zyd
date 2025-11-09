@@ -1,4 +1,4 @@
-import { Options } from "./Options"
+import { Options } from "../../utils/Options"
 
 export default function PlayScreen({questObj, dispatch, answerIndex}) {
     return (

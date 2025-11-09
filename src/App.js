@@ -1,16 +1,16 @@
 import { useEffect, useReducer } from 'react'
 
-import Header from './Component/Header.js'
-import Main from './Component/Main.js'
-import Loader from './Component/Loader.js'
-import Error from './Component/Error.js'
-import ReadyScreen from './Component/ReadyScreen.js'
-import PlayScreen from './Component/PlayScreen.js'
-import NextButton from './Component/NextButton.js'
-import Progress from './Component/Progress.js'
-import FinishedScreen from './Component/FinishedScreen.js'
-import Footer from './Component/Footer.js'
-import Timer from './Component/Timer.js'
+import Header from './utils/Header.js'
+import Main from './utils/Main.js'
+import Loader from './utils/Loader.js'
+import Error from './utils/Error.js'
+import ReadyScreen from './Component/StartScreen/ReadyScreen.js'
+import PlayScreen from './Component/PlayScreen/PlayScreen.js'
+import NextButton from './Component/PlayScreen/NextButton.js'
+import Progress from './Component/PlayScreen/Progress.js'
+import FinishedScreen from './Component/FinishScreen/FinishedScreen.js'
+import Footer from './utils/Footer.js'
+import Timer from './Component/PlayScreen/Timer.js'
 
 // WILL GO IN NETLIFY
 
